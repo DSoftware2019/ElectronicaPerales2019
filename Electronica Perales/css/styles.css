@@ -1,0 +1,95 @@
+/******* GENERAL *******/
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+/******* CABECERA *******/
+header {
+  background-color: #cb9801;
+  padding: 5px 0 0 0;
+  width: auto;
+  height: 60px;
+}
+
+#logo {
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin-top: -75px;
+  margin-bottom: -80px;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: auto;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+  margin-top: -11px;
+  padding-right: 60px;
+  float: right;
+}
+
+nav a {
+  font-weight: 800;
+  padding: 15px 10px;
+}
+
+
+
+/******* CAJA DE PREVIEW *******/
+#Preview {
+  display: block;
+  width: 550px;
+  height: 475px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: auto;
+  border: 1px solid #000;
+}
+
+
+/******* links *******/
+a {
+  color: #4db8ff;
+}
+
+/******* nav link *******/
+nav a, nav a:visited {
+  color: #fff;
+}
+
+/******* selected nav link *******/
+nav a.selected, nav a:hover {
+  color: #000;
+}
+
+/******* PIE DE PAGINA *******/
+
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  clear: both;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social_icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
